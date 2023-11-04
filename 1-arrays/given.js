@@ -18,10 +18,17 @@
  * Write a single line comment as to what will be displayed
  * then add a single line comment to show what is displayed in the terminal
  */
+var classroomSupplies = [];
 
+classroomSupplies.push("pen");
+classroomSupplies.push("paper");
+classroomSupplies.push("desk");
+classroomSupplies.push("computer");
 
+console.log(classroomSupplies);
+classroomSupplies.sort(classroomSupplies);
 
-
+//  This will display the sorted 'classroomSupplies' array in alphabetical order.
 
 
 
@@ -36,7 +43,17 @@
  * add a single line comment as to what the output will be
  */
 
+var travelPlaces = [];
 
+
+travelPlaces.push("Toronto");
+travelPlaces.push("New York");
+travelPlaces.push("Australia");
+travelPlaces.push("Spain");
+
+
+console.log(travelPlaces);
+//  This will display an array containing the travel destinations in the order they were added;
 
 
 
@@ -53,7 +70,14 @@
  * Then console log out the baking recipies. Write a single line comment as to what will be displayed.
  */
 
+var bakingRecipes = ["brownies", "cookies", "cakes", "tarts"];
 
+
+bakingRecipes.pop(tarts);
+
+
+console.log(bakingRecipes);
+//  This will display the array with the last item ("tarts") removed. The output will be: brownies, cookies cakes.;
 
 
 
@@ -76,11 +100,19 @@
  * I am taking _MDIA 1106_, _Design_ that is worth _3.0_ credits
  * 
  */
+var schedule = [
+    ["COMP 1170", "Fundamentals Frontend Web Tech", 3.0],
+    ["MDIA 1055", "Vector Graphics", 3.0],
+    ["MDIA 1106", "Design", 3.0],
+    ["MDIA 1620", "Basic Systems Operations and Prog", 3.0],
+  ];
+  console.table(schedule);
 
+const courseCode = schedule[3][0];
+const courseName = schedule[3][1];
+const credits = schedule[3][2];
 
-
-
-
+console.log('$coruseCode, $courseName, $Credits');
 
 
 
